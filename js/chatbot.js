@@ -58,7 +58,7 @@ class Chatbox {
             return;
         }
 
-        fetch('https://loyscef.pythonanywhere.com/predict', {
+        fetch('https://jebiddc.pythonanywhere.com/predict', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
             mode: 'cors',
